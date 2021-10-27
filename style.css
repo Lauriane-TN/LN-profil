@@ -1,0 +1,101 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background-color: whitesmoke ;
+}
+.container {
+  margin: 0 auto;
+  padding: 20px 0;
+  min-height: calc(100% - 50px);
+}
+.card-white {
+  background-color: white;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #5243e0;
+}
+#introduction {
+  padding: 20px;
+}
+#avatar-pp{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.projects{
+  padding: 30px;
+}
+#diversidays-pp {
+  height: 250px;
+  width: 250px;
+  border-radius: 15%;
+  object-fit: cover;
+  padding: 20px;
+}
+#btn-light {
+  color:white;
+  background-color: #5243e0;
+  margin: 0 auto;
+  padding: 10px;
+  border-style: double;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5243e0;
+  font-weight: 600;
+}
+
+#contact {
+  padding: 20px 0;
+}
+.fab {
+  padding: 20px;
+}
+.contact ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.contact li {
+  display: inline-block;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.contact li:hover {
+  color:blue;
+}
+
+@media (max-width: 1600px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.footer {
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  padding: 20px 0;
+}
